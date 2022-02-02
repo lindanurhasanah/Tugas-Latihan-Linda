@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // sebuah Array berisi daftar nama teman-teman
+        var temanTeman = ['Asri', 'Budi', 'Choirul', 'Deni', 'Erma'];
+        // apakah "Budi" ada dalam daftar-daftar teman-teman kita?
+        const yangKitaCari = 'Budi'
+        if (temanTeman.includes(yangKitaCari)) {
+          // tampilkan ke console JavaScript
+          console.log(yangKitaCari+' ada dalam daftar!');
+          // tampilkan pada body dokumen HTML
+          document.writeln('<p>'+yangKitaCari+' ada dalam daftar!</p>')
+        } else {
+          // tampilkan ke console JavaScript
+          console.log(yangKitaCari+' TIDAK ADA dalam daftar!');
+          // tampilkan pada body dokumen HTML
+          document.writeln('<p>'+yangKitaCari+' TIDAK ADA dalam daftar!</p>')      
+        }
+    </script>
+</body>
+</html>

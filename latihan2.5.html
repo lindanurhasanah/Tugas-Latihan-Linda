@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var anggota  = [
+      {nama: 'Asri', usia: 17}, 
+      {nama: 'Budi', usia: 18}, 
+      {nama: 'Choirul', usia: 19},
+      {nama: 'Deni', usia: 20}, 
+      {nama: 'Erma', usia: 15}
+    ];
+    // apakah semua orang dalam anggota sudah lebih dari 16 tahun?
+    var semuaSudahDewasa = anggota.every(orang => orang.usia>16);
+    if (semuaSudahDewasa) {
+      document.writeln('Semua sudah dewasa!');
+    } else {
+      document.writeln('Masih ada di antara mereka yang belum dewasa!');
+    }
+    </script>
+</body>
+</html>
